@@ -15,9 +15,13 @@ make
 ```
 
 # Testing
-In the `src/` directory compile and run the tests.
+In the `src/` directory compile and run the tests using the following options:
+
+`fast:` to include only tests that run quickly
+
+`all verbose:` to include additional tests that take a while to run
 ```
 make tests
-./tests fast # to include only tests that run quickly
-./tests all verbose # to include additional tests that take a while to run
+./tests fast
+./tests all verbose
 ```
