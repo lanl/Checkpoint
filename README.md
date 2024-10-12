@@ -5,6 +5,8 @@ and resuming it from the saved state.
 
 # Example
 In the `src/` directory compile and run the demo.
+
+(assumes `g++`; see `common/makefile` for other options)
 ```
 make
 ./chkpt options.txt
