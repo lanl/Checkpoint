@@ -1,0 +1,6 @@
+Name_of_run: crfile
+Factorial_argument: 10
+Checkpoint_path: wrk/
+Checkpoint_maxbytes: 40
+Checkpoint_trigger: 00:00:03
+Checkpoint_stop: false
