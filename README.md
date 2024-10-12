@@ -1,4 +1,4 @@
-# Checkpoint
+# Checkpoint-restart
 **Checkpoint** (LANL code number O4800) is a C++ code designed
 to facilitate checkpointing a program (i.e., saving its state)
 and resuming it from the saved state.
