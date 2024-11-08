@@ -629,8 +629,8 @@ const size_t MAXBYTES = 8;
         checkpoint::reset_defaults();
 
         failed_test_count += t.check_equal(*expected_ptr, *actual_ptr);
-        free(expected_ptr);
-        free(actual_ptr);
+        delete actual_ptr;
+        delete expected_ptr;
     }
 }
 
@@ -908,6 +908,7 @@ const size_t MAXBYTES = 8;
         #include <derived_read.inc>
         std::string expected = dw[0]->to_string();
         std::string actual = dr[0]->to_string();
+        #include <derived_delete.inc>
 
         failed_test_count += t.check_equal(expected, actual);
     }
@@ -927,6 +928,7 @@ const size_t MAXBYTES = 8;
         #include <derived_read.inc>
         std::string expected = dw[1]->to_string();
         std::string actual = dr[1]->to_string();
+        #include <derived_delete.inc>
 
         failed_test_count += t.check_equal(expected, actual);
     }
