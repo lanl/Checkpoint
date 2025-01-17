@@ -135,7 +135,7 @@ ifeq ($(comp),intel)
     ifeq ($(opt),yes)
         OPTIONS += -O3 # -fast
     else
-        OPTIONS += -g -O0 -Wall
+        OPTIONS += -g -O0 -Wall -fsanitize=address
     endif
 
     ifeq ($(mpi),yes)

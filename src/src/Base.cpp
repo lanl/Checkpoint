@@ -4,7 +4,7 @@
  * @author Peter Hakel
  * @version 0.0
  * @date Created in 2023\n
- * Last modified on 10 October 2024
+ * Last modified on 16 January 2025
  * @copyright (c) 2024, Triad National Security, LLC.
  * All rights reserved.\n
  * Use of this source code is governed by the BSD 3-Clause License.
@@ -36,6 +36,10 @@ Base::Base(): i_{0}, _t_{} {init_t_();}
 //-----------------------------------------------------------------------------
 
 Base::Base(const int i): i_{i}, _t_{} {init_t_();}
+
+//-----------------------------------------------------------------------------
+
+Base::Base(const Base& b): i_{b.i_}, _t_{} {init_t_();}
 
 //-----------------------------------------------------------------------------
 

@@ -4,7 +4,7 @@
  * @author Peter Hakel
  * @version 0.0
  * @date Created in 2023\n
- * Last modified on 10 October 2024
+ * Last modified on 16 January 2025
  * @copyright (c) 2024, Triad National Security, LLC.
  * All rights reserved.\n
  * Use of this source code is governed by the BSD 3-Clause License.
@@ -42,6 +42,14 @@ Derived::Derived(): s_{""}, _t_{}
 Derived::Derived(const int i, const std::string& s): s_{s}, _t_{}
 {
     i_ = i;
+    init_t_();
+}
+
+//-----------------------------------------------------------------------------
+
+Derived::Derived(const Derived& d): s_{d.s_}, _t_{}
+{
+    i_ = d.i_;
     init_t_();
 }
 
