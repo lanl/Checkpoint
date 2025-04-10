@@ -1,8 +1,8 @@
 
 //  Note: only use trimmed strings for names
 
-#include <test_checkpoint.h>
 #include <Test.h>
+#include <checkpoint.h>
 
 #include <CheckpointFile.h>
 #include <Data.h>

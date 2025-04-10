@@ -8,14 +8,14 @@ Los Alamos National Laboratory
 WRS-SNA group
 
 Created on 23 April 2023
-Last modified on 27 July 2024
+Last modified on 10 April 2025
 
 =============================================================================*/
 
 //  Note: only use trimmed strings for names
 
-#include <test_CArray.h>
 #include <Test.h>
+#include <CArray.h>
 
 #include <cstdlib>
 

@@ -1,5 +1,5 @@
-#include <test_Data.h>
 #include <Test.h>
+#include <Data.h>
 
 void test_Data(int &failed_test_count, int &disabled_test_count)
 {

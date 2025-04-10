@@ -1,5 +1,5 @@
-#include <test_DerivedInt.h>
 #include <Test.h>
+#include <DerivedInt.h>
 
 #include <memory>
 

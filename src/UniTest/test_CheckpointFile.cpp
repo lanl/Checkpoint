@@ -1,9 +1,8 @@
 
 //  Note: only use trimmed strings for names
 
-#include <test_CheckpointFile.h>
 #include <Test.h>
-
+#include <CheckpointFile.h>
 
 void test_CheckpointFile(int &failed_test_count, int &disabled_test_count)
 {

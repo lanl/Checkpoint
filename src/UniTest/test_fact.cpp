@@ -1,5 +1,5 @@
-#include <test_fact.h>
 #include <Test.h>
+#include <fact.h>
 
 #include <checkpoint.h>
 #include <checkpoint_reg.h>

@@ -1,5 +1,5 @@
-#include <test_checkpoint_reg.h>
 #include <Test.h>
+#include <checkpoint_reg.h>
 
 void test_checkpoint_reg(int &failed_test_count, int &disabled_test_count)
 {   // empty
